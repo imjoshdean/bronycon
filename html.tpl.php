@@ -65,8 +65,7 @@
   </div>
   <?php print $page_top; ?>
   <?php print $page; ?>
-  <?php print $page_bottom; ?>
-  <script src="//canjs.com/release//1.1.6/can.jquery.js"></script>
+  <?php print $page_bottom; ?>o
   <script>
     var _gaq=[['_setAccount','UA-32160925-1'],['_trackPageview']];
     (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
