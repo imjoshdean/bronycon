@@ -25,7 +25,7 @@
  */
 ?>
 <h2>
-  Hours:
+  <?php print $fields['title']->content; ?> Hours:
   <small><?php print $fields['field_start_time']->content; ?> - <?php print $fields['field_end_time']->content; ?></small>
 </h2>
 <?php print $fields['view']->content; ?>

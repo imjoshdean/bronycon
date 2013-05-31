@@ -5,16 +5,6 @@
     print drupal_render(menu_tree('main-menu'));
     ?>
   </header>
-  <div class="container_16 content one-column">
-    <section class="grid_16">
-      <?php if ($tabs): ?>
-        <div class="tabs">
-          <?php print render($tabs); ?>
-        </div>
-      <?php endif; ?>
-      <?php print render($page['content']); ?>
-    </section>
-  </div>
   <div class="container_16 schedule">
     <section class="grid_11">
       <?php print render($page['secondary_content']); ?>
