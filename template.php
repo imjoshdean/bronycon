@@ -1,6 +1,16 @@
 <?php
 
 /**
+ * Tell Drupal 7 to look for a custom page template for each node type. 
+ */
+function bronycon_preprocess_page(&$vars, $hook) {
+    if (isset($vars['node'])) {
+        $suggest = "page__node__{$vars['node']->type}";
+        $vars['theme_hook_suggestions'][] = $suggest;
+    }
+}
+
+/**
  * Override or insert variables into the html template.
  */
 function bronycon_preprocess_html(&$vars) {
