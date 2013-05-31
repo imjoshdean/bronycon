@@ -1,0 +1,507 @@
+@font-face {
+    font-family: 'MuseoSlab300Regular';
+    src: url('./fonts/Museo_Slab_300-webfont.eot');
+    src: url('./fonts/Museo_Slab_300-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Museo_Slab_300-webfont.woff') format('woff'),
+         url('./fonts/Museo_Slab_300-webfont.ttf') format('truetype'),
+         url('./fonts/Museo_Slab_300-webfont.svg#MuseoSlab300Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'MuseoSans300Regular';
+    src: url('./fonts/MuseoSans_300-webfont.eot');
+    src: url('./fonts/MuseoSans_300-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/MuseoSans_300-webfont.woff') format('woff'),
+         url('./fonts/MuseoSans_300-webfont.ttf') format('truetype'),
+         url('./fonts/MuseoSans_300-webfont.svg#MuseoSans300Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'MuseoSans500Regular';
+    src: url('./fonts/MuseoSans_500-webfont.eot');
+    src: url('./fonts/MuseoSans_500-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/MuseoSans_500-webfont.woff') format('woff'),
+         url('./fonts/MuseoSans_500-webfont.ttf') format('truetype'),
+         url('./fonts/MuseoSans_500-webfont.svg#MuseoSans500Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'MuseoSlab500Regular';
+    src: url('./fonts/Museo_Slab_500-webfont.eot');
+    src: url('./fonts/Museo_Slab_500-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Museo_Slab_500-webfont.woff') format('woff'),
+         url('./fonts/Museo_Slab_500-webfont.ttf') format('truetype'),
+         url('./fonts/Museo_Slab_500-webfont.svg#MuseoSlab500Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'MuseoSans900Regular';
+    src: url('./fonts/MuseoSans_900-webfont.eot');
+    src: url('./fonts/MuseoSans_900-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/MuseoSans_900-webfont.woff') format('woff'),
+         url('./fonts/MuseoSans_900-webfont.ttf') format('truetype'),
+         url('./fonts/MuseoSans_900-webfont.svg#MuseoSans900Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'MuseoSans900Regular';
+    src: url('./fonts/MuseoSans_900-webfont.eot');
+    src: url('./fonts/MuseoSans_900-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/MuseoSans_900-webfont.woff') format('woff'),
+         url('./fonts/MuseoSans_900-webfont.ttf') format('truetype'),
+         url('./fonts/MuseoSans_900-webfont.svg#MuseoSans900Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+  background-color: #040029;
+  background-attachment: fixed;
+  background-image: url(../img/gutter.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+h1, h2, h3, h4, h5, h6, a, summary {
+  font-family: 'MuseoSlab300Regular', Helvetica, Arial;
+}
+
+h1 {
+  color: #9E5EBF;
+  font-size: 32px;
+  margin: 25px 0 20px 0;
+}
+
+h2 {
+  color: #A5A5A5;
+  font-size: 24px;
+}
+
+p, p a, ol, ul, summary {
+  font-family: 'MuseoSans500Regular', Helvetica, Arial;
+}
+
+b, strong {
+  font-family: 'MuseoSans900Regular', Helvetica, Arial;
+  font-weight: normal;
+}
+
+a, a:active, a:visited, a:hover {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+header {
+  background: #00164D;
+  border-bottom: 4px solid #FFCA2B;
+  color: #27D1F7;
+  height: 210px;
+}
+
+header a {
+  color: #FFCA2B;
+  font-size: 20px;
+}
+
+header a:hover {
+  color: #EBD435;
+  text-decoration: none;
+}
+
+header a.logo {
+  background: url(../img/logo.png) no-repeat center;
+  display: block;
+  height: 180px;
+  margin: 0 auto;
+  width: 960px;
+}
+
+header .navigation li {
+  text-align: center;
+  position: relative;
+}
+
+header .navigation a.active {
+  color: #FFF;
+}
+
+header .sub-navigation {
+  background: #00164D;
+  border-bottom: 4px solid #FFCA2B;
+  color: #27D1F7;
+  display: none;
+  padding: 10px 10px 10px 0;
+  position: absolute;
+  top: 25px;
+  width: 200px;
+  z-index: 2;
+}
+
+header .sub-navigation li {
+  list-style: none;
+  margin-left: 10px;
+  text-align: left;
+}
+
+header .sub-navigation a {
+  display: block;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.secondary-header {
+  background: #333;
+  border-bottom: 4px solid #57338D;
+  height: 400px;
+}
+
+.rotating-banner {
+  height: 400px;
+  margin: 0 auto;
+  position: relative;
+  width: 960px;
+}
+
+.rotating-banner .banners {
+  position: relative;
+}
+
+.rotating-banner .banners .banner {
+  height: 400px;
+  position: absolute;
+  opacity: 0;
+  width: 960px;
+  z-index: 0;
+  -webkit-transition: opacity 1s linear;
+  -moz-transition: opacity 1s linear;
+  -ms-transition: opacity 1s linear;
+  -o-transition: opacity 1s linear;
+  transition: opacity 1s linear;
+}
+
+.rotating-banner .banners .banner.current {
+  opacity: 1;
+  z-index: 1;
+}
+
+.rotating-banner .banner .title {
+  background: #1E4FC9;
+  background: rgba(30, 79, 201, .9);
+  padding: 10px 15px;
+  position: absolute;
+  right: 0px;
+  top: 10px;
+  width: 345px;
+}
+
+.rotating-banner .banner a, .rotating-banner .banner span {
+  color: #FFF;
+  font-family: 'MuseoSlab500Regular', Helvetica, Arial;
+  font-size: 32px;
+  line-height: 26px;
+  text-decoration: none;
+}
+
+.rotating-banner .banner a small, .rotating-banner .banner span small {
+  display: block;
+  font-size: 14px;
+  font-style: normal;
+}
+
+.rotating-banner .banner-preview {
+  bottom: 10px;
+  position: absolute;
+  z-index: 3;
+}
+
+.rotating-banner .banner-preview div {
+  border: 2px solid #1E4FC9;
+  cursor: pointer;
+}
+
+.rotating-banner .banner-preview div.current {
+  border: 2px solid #57338D;
+}
+
+.rotating-banner .banner-preview img {
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: gray;
+}
+
+.rotating-banner .banner-preview .current img {
+  filter: none;
+  -webkit-filter: none;
+  -moz-filter: none;
+  -ms-filter: none;
+  -o-filter: none;
+}
+
+.content {
+  background: #FFF;
+  padding-bottom: 20px;
+}
+
+.content p {
+  font-size: 14px;
+}
+
+.content.one-column p {
+  font-size: 14px;
+}
+
+article {
+  margin-bottom: 45px;
+}
+
+article h1 {
+  margin-bottom: 0;  
+}
+
+article h2 {
+  margin: 0;
+}
+
+article h2 a {
+  color: #A5A5A5;
+  text-decoration: none;
+}
+
+article summary {
+  color: #000;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+article img {
+  display: block;
+  margin: 0 auto 1em auto;
+  max-width: 100%;
+}
+
+article p {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+article a {
+  color: #26D1F7;
+  text-decoration: underline;
+}
+
+article a.more {
+  color: #9E5EBF;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.sidebar .connect {
+  margin-top: -30px;
+}
+
+.sidebar .connect img {
+  margin-right: 15px;
+}
+
+.sidebar .connect a {
+  color: #A5A5A5;
+  display: block;
+  font-size: 20px;
+  line-height: 32px;
+  margin-bottom: 10px;
+  white-space: nowrap;
+}
+
+.sidebar .register h1, .sidebar .connect h1 {
+  margin-bottom: 0;
+}
+
+.sidebar .register p, .sidebar .connect p {
+  color: #A5A5A5;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.bio {
+  clear: both;
+  margin-bottom: 25px;
+  line-height: 17px;
+  -webkit-perspective: 1000;
+  -moz-perspective: 1000;
+  -o-perspective: 1000;
+  perspective: 1000;
+}
+
+.bio h2 {
+  margin-bottom: 5px;
+}
+
+.bio img {
+  float: left;
+  height: 300px;
+  margin: 0 20px 20px 0;
+  width: 200px;
+}
+
+.bio.views-row-even img {
+  float: right;
+  margin: 0 0 20px 20px;
+}
+
+.bio .autographs h4 {
+  color: #000;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.bio .autographs p {
+  margin-bottom: 5px;
+}
+
+.guest iframe {
+  margin-bottom: 20px
+}
+
+.schedule {
+  background: #FFF;
+}
+
+.schedule .day {
+  clear: both;
+  margin-bottom: 40px;
+}
+
+.schedule .day h2 {
+  border-bottom: 1px solid #2AD1F7;
+  width: 100%;
+}
+
+.schedule .day h2 small {
+  float: right;
+  font-size: 14px;
+  line-height: 45px;
+}
+
+.schedule .time {
+  clear: both;
+}
+
+.schedule .time h3 {
+  color: #9E2387;
+  float: left;
+  font-size: 18px;
+  width: 90px;
+}
+
+.schedule .time ul {
+  float: left;
+  width: 485px;
+}
+
+.schedule .time li {
+  float: left;
+  list-style: none;
+  margin: 0 10px 10px 0;
+}
+
+.schedule .time a {
+  border: 1px solid #002051;
+  color: #000;
+  display: block;
+  font-size: 14px; 
+  height: 25px; 
+  line-height: 25px;
+  padding-right: 15px;
+  text-decoration: none;
+}
+
+.schedule .time a .color {
+  float: left;
+  height: 25px;
+  margin-right: 10px;
+  width: 12px;
+}
+
+.schedule .legend h2 {
+  margin-bottom: 0;
+}
+
+.schedule .legend p {
+  font-size: 12px;
+  font-style: italic;
+  line-height: 14px;
+}
+
+.schedule .legend a {
+  clear: both;
+  color: #000;
+  display: block;
+  font-size: 14px;
+  height: 25px;
+  line-height: 25px;
+  margin-bottom: 15px;
+  text-decoration: none;
+}
+
+.schedule .legend a .color {
+  float: left;
+  height: 25px;
+  margin-right: 10px;
+  width: 25px;
+}
+
+footer {
+  background: #00164D;
+  border-top: 4px solid #FFCA2B;
+  color: #FFFFFF;
+}
+
+footer h3 {
+  color: #FFCA2B;
+  margin: 5px 0;
+}
+
+footer a {
+  color: #FFF;
+  text-decoration: underline;
+}
+
+footer small {
+  display: block;
+  font-size: 10px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.qtip {
+  width: 500px;
+  max-width: 500px !important;
+}
+
+#qtip-overlay div {
+  background-color: #FFF !important;
+  opacity: .7 !important;
+  -ms-filter: "alpha(Opacity=70)" !important;
+}
